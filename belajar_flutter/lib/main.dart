@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'container_widget.dart';
-import 'colum_widget.dart';
+import 'column_widget.dart';
+import 'rowcolumn.dart';
+import 'tugas_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Container(
           color: Colors.blue,
-          child: ContainerWidget(
+          child: TugasWidget(
 
           ),
         ),
@@ -50,4 +52,7 @@ class HelloWorld extends StatelessWidget {
       
     );
   }
+
+  
+
 }

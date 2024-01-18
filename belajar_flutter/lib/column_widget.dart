@@ -12,23 +12,23 @@ class ColumnWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Container(
-              color: Colors.amber,
+              color: const Color.fromARGB(255, 255, 40, 25),
               child: FlutterLogo(
                 size: 60,
               ),
             ),
             Container(
-              color: Colors.red,
+              color: Colors.purple,
               child: FlutterLogo(
                 size: 60,
               ),
             ),
-            Container(
-               color: Colors.blue,
-               child: FlutterLogo(
+             Container(
+              color: Colors.pink,
+              child: FlutterLogo(
                 size: 60,
-               ),
-            )
+              ),
+            ),
           ],
         )
       ],
