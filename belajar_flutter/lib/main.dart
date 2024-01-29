@@ -2,7 +2,18 @@ import 'package:flutter/material.dart';
 import 'container_widget.dart';
 import 'column_widget.dart';
 import 'rowcolumn.dart';
+import 'iconflutter.dart';
+import 'listviewbasic.dart';
+import 'listviewbuilder.dart';
+import 'listview_separated.dart';
+import 'multipleview_type.dart';
 import 'tugas_widget.dart';
+import 'tugas2_widget.dart';
+import 'grid_basic.dart';
+import 'grid_count.dart';
+import 'grid_build.dart';
+import 'latihan_row.dart';
+import 'tugas_grid.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,13 +29,13 @@ class MyApp extends StatelessWidget {
       title: "Belajar Flutter",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("CINDY"),
-          backgroundColor: const Color.fromARGB(255, 233, 126, 162),
+          title: Text("UPIN & IPIN"),
+          backgroundColor: Colors.amber,
           centerTitle: true,
         ),
         body: Container(
-          color: Colors.blue,
-          child: TugasWidget(
+          color: Colors.white,
+          child:   TugasGrid  (
 
           ),
         ),
@@ -52,7 +63,5 @@ class HelloWorld extends StatelessWidget {
       
     );
   }
-
-  
 
 }

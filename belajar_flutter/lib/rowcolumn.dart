@@ -43,7 +43,7 @@ class RowColumn extends StatelessWidget {
                   Container(
                     height: 100,
                     width: 100,
-                    color: Colors.redAccent,
+                    color: Colors.black,
                     child: FlutterLogo(),
                     margin: EdgeInsets.all(10),
                   )
