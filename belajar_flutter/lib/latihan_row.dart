@@ -4,7 +4,8 @@ class LatihanRow extends StatelessWidget {
   
   @override
   Widget build(BuildContext) {
-    return Container(
+    return
+     Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(colors: [Color.fromARGB(255, 96, 139, 109), Colors.black26]),
       ),

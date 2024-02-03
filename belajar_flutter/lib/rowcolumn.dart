@@ -5,7 +5,8 @@ class RowColumn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return 
+    MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Belajar Row & Column",
       home: Scaffold(
